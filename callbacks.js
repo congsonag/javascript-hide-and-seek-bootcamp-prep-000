@@ -46,4 +46,4 @@ function divide10ByN(n) {
 
 console.log(doTo5(divide10ByN))
 
-di
+
