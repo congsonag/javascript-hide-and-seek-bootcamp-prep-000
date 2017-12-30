@@ -33,5 +33,13 @@ function groupAndClean(items, cleaningMethod, done) {
 
 groupAndClean(nails.concat(planks), clean, function()
 {
-  console.log('Whew, that was a lot of work')
+  console.log('Whew, that was a lot of work') }
 })
+
+
+
+function divide10ByN(n) {
+  return  10 / n
+}
+
+console.log(divide10ByN(3))
