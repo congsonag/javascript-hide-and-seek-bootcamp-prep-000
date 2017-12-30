@@ -36,10 +36,14 @@ groupAndClean(nails.concat(planks), clean, function()
   console.log('Whew, that was a lot of work')
 })
 
-
+function doTo5(anything) {
+  return anything(5)
+}
 
 function divide10ByN(n) {
   return  10 / n
 }
 
-console.log(divide10ByN(3))
+console.log(doTo5(divide10ByN))
+
+di
