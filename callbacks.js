@@ -33,7 +33,7 @@ function groupAndClean(items, cleaningMethod, done) {
 
 groupAndClean(nails.concat(planks), clean, function()
 {
-  console.log('Whew, that was a lot of work') }
+  console.log('Whew, that was a lot of work')
 })
 
 
